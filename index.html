@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build a Product Landing Page</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+  <heading>
+    <div class="navbar">
+      <nav class="navbar__container">
+        <a href="/" class="logo">Buckwheat It</a>
+        <div class="account">
+          <a class="account__link" href="/register">
+            Sign Up
+          </a>
+          <a class="account__link" href="/login">
+            Log In
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="hero">
+      <div class="hero__container">
+        <div>
+          <h2 class="hero__title">Simple recipe management for your business.</h2>
+          <div class="hero__subtitle">
+            You need the right tools to manage your food business effectively. Take control of your recipes and bring together your information
+            in a single place. Built with simplicity in mind, and giving you the right information at your finger tips.
+          </div>
+        </div>
+
+        <div class="sign-up">
+          <div class="sign-up__title">
+            Sign up and start creating recipes in seconds.
+          </div>
+
+          <form class="sign-up__form">
+            <div class="form-group">
+              <label class="form-group__label" for="email">Email</label>
+              <input class="form-group__input" id="email" type="email" placeholder="name@example.com" />
+            </div>
+            <div class="form-group">
+              <label class="form-group__label" for="password">Password</label>
+              <input class="form-group__input" id="password" type="password" />
+            </div>
+            <div class="form-group__actions">
+              <button class="button button--secondary button--full-width" type="submit">Create account</button>
+              <p class="form-group__action">Already have an account?
+                <a class="form-group__link" href="/login">Login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </heading>
+
+  <div class="pricing">
+    <div class="pricing__container">
+      <h2 class="section-title">Find the plan for you.</h2>
+      <h3 class="section-subtitle">Sign up now and upgrade anytime. New accounts get a 14-day trial of all paid plans.</h3>
+      <div class="pricing__plans">
+        <div class="plan">
+          <div class="plan__use">For Personal Use</div>
+          <div>
+            <div class="plan__price">
+              <span class="plan__currency">£</span>0</div>
+            <div class="plan__time">/ month</div>
+          </div>
+          <ul class="plan__features">
+            <li>
+              <strong>1</strong> user</li>
+            <li>
+              <strong>100</strong> recipes</li>
+            <li>
+              <strong>Unlimited</strong> ingredients</li>
+          </ul>
+          <a class="button button--secondary button--full-width" href="/signup/personal">Try for free</a>
+        </div>
+        <div class="plan plan--hero">
+          <div class="plan__use">For Small Business</div>
+          <div>
+            <div class="plan__price">
+              <span class="plan__currency">£</span>30</div>
+            <div class="plan__time">/ month</div>
+          </div>
+          <ul class="plan__features">
+            <li>
+              <strong>10</strong> users</li>
+            <li>
+              <strong>100</strong> recipes</li>
+            <li>
+              <strong>Unlimited</strong> ingredients</li>
+            <li>
+              <strong>E-mail support</strong>
+            </li>
+          </ul>
+          <a class="button button--full-width" href="/signup/small-business">Get started</a>
+        </div>
+        <div class="plan">
+          <div class="plan__use">For Large Business</div>
+          <div>
+            <div class="plan__price">
+              <span class="plan__currency">£</span>60</div>
+            <div class="plan__time">/ month</div>
+          </div>
+          <ul class="plan__features">
+            <li>
+              <strong>Unlimited</strong> users</li>
+            <li>
+              <strong>Unlimited</strong> recipes</li>
+            <li>
+              <strong>Unlimited</strong> ingredients</li>
+            <li>
+              <strong>E-mail support</strong>
+            </li>
+          </ul>
+          <a class="button button--secondary button--full-width" href="/signup/large-business">Get started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="why">
+    <div class="why__container">
+      <h1 class="section-title">Everything in one place.</h1>
+      <h2 class="section-subtitle">Your recipes, ingredients, planners and deliveries together in a single place.</h2>
+      <div class="why__features">
+        <div class="feature">
+          <h3 class="feature__title">Recipes</h3>
+          <p class="feature__description">
+            View ingredient, nutrition and allergen information at a glance. Cost your recipes to include, ingredients, sub-recipes,
+            as well as materials and labour.
+          </p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Ingredients</h3>
+          <p class="feature__description">
+            Associate allegerns with ingredients to automatically populate recipes. View detailed supplier and cost history details.
+          </p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Suppliers</h3>
+          <p class="feature__description">
+            Store information about your suppliers and automatically generate purchase orders on the fly.
+          </p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Inventory</h3>
+          <p class="feature__description">
+            Take control of your inventory. Adjust inventory by item or group. Receive and track deliveries directly into your inventory.
+          </p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Planner</h3>
+          <p class="feature__description">
+            Create shopping lists, and generate purchase orders based on the items you expect to produce.
+          </p>
+        </div>
+        <div class="feature">
+          <h3 class="feature__title">Diary</h3>
+          <p class="feature__description">
+            Week-to-view diary pages give a great overview of your business. View opening and closing checks, recipe modifications and
+            deliveries at a glance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer__container">
+      <ul class="footer__links">
+        <li>
+          <a class="footer__link" href="/home">Home</a>
+          <p class="footer__description">Simple recipe management for your business.</p>
+        </li>
+        <li>
+          <a class="footer__link" href="/about">About</a>
+          <p class="footer__description">Who we are, what we do and what we're bulding.</p>
+        </li>
+        <li>
+          <a class="footer__link" href="/pricing">Blog
+            <p class="footer__description">Catch up with the latest news.</p>
+          </a>
+        </li>
+        <li>
+          <a class="footer__link" href="/login">Sign up</a>
+          <p class="footer__description">Get started today!</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
