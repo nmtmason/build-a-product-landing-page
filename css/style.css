@@ -95,7 +95,7 @@ html {
   margin: 0;
   font-size: 3rem;
   font-weight: 600;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   line-height: 1.2;
   color: rgb(255, 255, 255);
 }
@@ -119,7 +119,7 @@ html {
 .sign-up__title {
   font-size: 2rem;
   font-weight: 600;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   line-height: 1.2;
   text-align: center;
   color: rgb(50, 50, 50);
